@@ -1,20 +1,25 @@
 {
-  "name": "react-boilerplate",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Aldarean/egghead-react-boilerplate-rodney.git"
-  },
-  "keywords": [],
-  "bugs": {
-    "url": "https://github.com/Aldarean/egghead-react-boilerplate-rodney/issues"
-  },
-  "homepage": "https://github.com/Aldarean/egghead-react-boilerplate-rodney#readme"
+	"name": "react-boilerplate",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "webpack",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Aldarean/egghead-react-boilerplate-rodney.git"
+	},
+	"keywords": [],
+	"bugs": {
+		"url": "https://github.com/Aldarean/egghead-react-boilerplate-rodney/issues"
+	},
+	"homepage": "https://github.com/Aldarean/egghead-react-boilerplate-rodney#readme",
+	"devDependencies": {
+		"webpack": "4.25.1",
+		"webpack-cli": "^3.3.1"
+	}
 }
